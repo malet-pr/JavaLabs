@@ -1,7 +1,7 @@
 import org.acme.tamboui.HelloDsl;
 
 
-public class Main {
+public class TambouiApp {
     public static void main(String[] args) {
         try {
             HelloDsl.runApp();
