@@ -8,7 +8,6 @@ import dev.tamboui.tui.event.KeyEvent;
 import dev.tamboui.toolkit.app.*;
 import dev.tamboui.toolkit.element.Element;
 import static dev.tamboui.toolkit.Toolkit.*;
-import java.util.Optional;
 
 
 public class TestLists extends ToolkitApp {

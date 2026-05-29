@@ -1,3 +1,9 @@
+.vscode/
+
 tamboui-playground/target/
+tamboui-playground/*.log
+
 custom-annotations/target/
 cli-runners/target/
+
+
