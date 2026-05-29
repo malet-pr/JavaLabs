@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TAMBO-UI/EXERCISES/Answers/Warm-Up.md",
+                "file": "TAMBO-UI/EXERCISES/First Week.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Warm-Up"
+              "title": "First Week"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TAMBO-UI/EXERCISES/First Week.md",
+                "file": "TAMBO-UI/EXERCISES/Answers/Warm-Up.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First Week"
+              "title": "Warm-Up"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +207,7 @@
       "markwhen:Create new Markwhen file": false
     }
   },
-  "active": "ba80dbc83658336c",
+  "active": "970fb40e2204e353",
   "lastOpenFiles": [
     "TAMBO-UI/EXERCISES/First Week.md",
     "TAMBO-UI/EXERCISES/Answers/Warm-Up.md",

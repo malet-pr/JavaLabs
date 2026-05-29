@@ -14,8 +14,8 @@ ui_state = {
 }
 
 events = [
-	KeyPress(Tab),
-	KeyPress(Enter) ,
+	TAB,
+	ENTER,
 	MouseClick ,
 	m -> focus meeting_type , 
 	u -> focus duration_min  ,
