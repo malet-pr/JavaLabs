@@ -26,10 +26,10 @@ events = [
 
 Render
 
-	[m]eeting_type  ____  
-	d[u]ration_min  ____
-	d[e]ep_dive     ____
-	d[r]ift         ____
-	e[n]vironment   ____
+	[m]eeting_type  ____ 
+	d[u]ration_min  ____ 
+	d[e]ep_dive     ____ 
+	d[r]ift         ____ 
+	e[n]vironment   ____ 
 	
-	BTN clear       BTN save
+	BTN clear    BTN save
