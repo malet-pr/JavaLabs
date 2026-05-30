@@ -47,30 +47,15 @@ The important realization:
 ## Coordinates
 
 Suppose your terminal is:
-
-```
-80 columns
-24 rows
-```
+	80 columns
+	24 rows
 
 Then:
+	x = 0..79
+	y = 0..23
 
-```
-x = 0..79
-y = 0..23
-```
-
-The top-left corner is:
-
-```
-(0,0)
-```
-
-A point near the center:
-
-```
-(40,12)
-```
+The top-left corner is: (0,0)
+A point near the center: (40,12)
 
 A TUI library constantly thinks in coordinates.
 
@@ -89,45 +74,29 @@ Imagine:
 You could draw this cell by cell.
 Nobody does.
 Instead you define a rectangle:
-
-```
-x = 0
-y = 0
-width = 15
-height = 6
-```
-
+	x = 0
+	y = 0
+	width = 15
+	height = 6
 This rectangle becomes an **Area**.
 
 That's why most modern TUI libraries have some variation of:
-
-```
-Area
-Rect
-Rectangle
-Region
-```
+	Area
+	Rect
+	Rectangle
+	Region
 
 They're all representing:
-
-```
-start position
-+
-width
-+
-height
-```
+	start position
+	+
+	width
+	+
+	height
 
 ---
-
 ## Mental Exercise
 
-Imagine your terminal is:
-
-```
-80 x 24
-```
-
+Imagine your terminal is: 80 x 24
 You want:
 +----------------------+
 | Menu                        |
@@ -138,27 +107,10 @@ You want:
 |                                                           |
 +--------------------------------------+
 Without worrying about code:
-
 1. What rectangle would you assign to the Menu?
 2. What rectangle would you assign to Main Content?
 3. If the terminal becomes 120×40, should those rectangles remain fixed or grow?
 
 That question is the seed of **layout systems**, which is Week 4.
-
----
-
-And I like your idea of answering the Rule Runner exercise as a warm-up.
-
-Even better: when you answer it, try to separate:
-
-```
-Application State
-```
-
-from
-
-```
-UI State
-```
-
+Even better: when you answer it, try to separate: `Application State` from `UI State` 
 because that distinction becomes crucial when we reach Week 5 and Week 6. In fact, your Blessed state machine TUI already contained both, even if we didn't call them by those names at the time.
