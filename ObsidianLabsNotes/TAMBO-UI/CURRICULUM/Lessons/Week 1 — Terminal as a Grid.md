@@ -1,3 +1,6 @@
+
+---
+---
 ## Lesson 1.1 — The Terminal Is Not Text
 
 The first misconception almost everyone has:
@@ -35,7 +38,6 @@ The important realization:
 > The terminal is closer to a spreadsheet than to a text file.
 
 ---
-
 ## Coordinates
 
 Suppose your terminal is:
