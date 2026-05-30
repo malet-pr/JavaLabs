@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "73c5b1e56b3b1780",
+        "id": "0ed9247f650af007",
         "type": "tabs",
         "children": [
           {
-            "id": "ba80dbc83658336c",
+            "id": "db6e9d74dd1e17bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TAMBO-UI/EXERCISES/First Week/Warm-Up.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Warm-Up"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TAMBO-UI/EXERCISES/First Week/Warm-Up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Warm-Up"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TAMBO-UI/EXERCISES/First Week/Warm-Up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Warm-Up"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TAMBO-UI/EXERCISES/First Week/Warm-Up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Warm-Up"
+              "title": "Outline"
             }
           },
           {
@@ -192,22 +185,24 @@
       "markwhen:Create new Markwhen file": false
     }
   },
-  "active": "a11a67e7d00373bf",
+  "active": "23bdc534b325e9f0",
   "lastOpenFiles": [
-    "TAMBO-UI/CURRICULUM/Lessons/Week 1 — Terminal as a Grid.md",
-    "TAMBO-UI/EXERCISES/First Week/Exercises.md",
-    "TAMBO-UI/GRAPHS",
-    "TAMBO-UI/CURRICULUM/Notes/Graphic Tools.md",
-    "TAMBO-UI/EXERCISES/First Week",
+    "CLI",
+    "TUI/EXERCISES/First Week/Warm-Up.md",
+    "METADATA",
+    "TUI/CURRICULUM/Lessons/Week 1 — Terminal as a Grid.md",
+    "TUI/EXERCISES/First Week/Exercises.md",
+    "TUI/GRAPHS",
+    "TUI/CURRICULUM/Notes/Graphic Tools.md",
+    "TUI/EXERCISES/First Week",
     "TAMBO-UI/EXERCISES/Untitled.md",
-    "TAMBO-UI/EXERCISES/First Week/Warm-Up.md",
-    "TAMBO-UI/CURRICULUM/Notes",
+    "TUI/CURRICULUM/Notes",
     "TAMBO-UI/EXERCISES/Answers",
-    "TAMBO-UI/CURRICULUM/1.a - First six weeks.md",
-    "TAMBO-UI/CURRICULUM/Lessons",
-    "TAMBO-UI/CURRICULUM/1 - TUI Theory Mental Model.md",
+    "TUI/CURRICULUM/1.a - First six weeks.md",
+    "TUI/CURRICULUM/Lessons",
+    "TUI/CURRICULUM/1 - TUI Theory Mental Model.md",
     "TAMBO-UI/EXAMPLES",
-    "TAMBO-UI/EXERCISES",
-    "TAMBO-UI/CURRICULUM"
+    "TUI/EXERCISES",
+    "TUI/CURRICULUM"
   ]
 }
