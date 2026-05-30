@@ -18,28 +18,20 @@ A TUI library sees something different:
 A TUI sees a **2D matrix of cells**.
 
 Something like:
-
-```
-(0,0) (1,0) (2,0) (3,0)
-(0,1) (1,1) (2,1) (3,1)
-(0,2) (1,2) (2,2) (3,2)
-```
-
+	(0,0)   (1,0)   (2,0)   (3,0)
+	(0,1)    (1,1)   (2,1)    (3,1)
+	(0,2)   (1,2)   (2,2)   (3,2)
 Each position contains a cell.
 
 Conceptually:
-
-```
-Cell {    
-	char symbol;    
-	Color foreground;    
-	Color background;    
-	Style style;
-}
-```
-
+	Cell {    
+		char symbol;    
+		Color foreground;    
+		Color background;    
+		Style style;
+	}
+	
 The important realization:
-
 > The terminal is closer to a spreadsheet than to a text file.
 
 ---
@@ -98,14 +90,14 @@ They're all representing:
 
 Imagine your terminal is: 80 x 24
 You want:
-+----------------------+
-| Menu                        |
-+----------------------+
-+--------------------------------------+
-| Main Content                                   |
-|                                                           |
-|                                                           |
-+--------------------------------------+
+	+----------------------+
+	| Menu                        |
+	+----------------------+
+	+--------------------------------------+
+	| Main Content                                   |
+	|                                                           |
+	|                                                           |
+	+--------------------------------------+
 Without worrying about code:
 1. What rectangle would you assign to the Menu?
 2. What rectangle would you assign to Main Content?
@@ -114,3 +106,8 @@ Without worrying about code:
 That question is the seed of **layout systems**, which is Week 4.
 Even better: when you answer it, try to separate: `Application State` from `UI State` 
 because that distinction becomes crucial when we reach Week 5 and Week 6. In fact, your Blessed state machine TUI already contained both, even if we didn't call them by those names at the time.
+
+---
+---
+
+
